@@ -7,7 +7,7 @@ export default function Index() {
     <View
       className="flex-1 items-center justify-center bg-gray-100"
     >
-      <Text className="text-xl">Hello My App</Text>
+      <Text className="text-xl font-pmedium">Hello My App</Text>
       <StatusBar style="auto" />
       <Link href="/profile" className="text-blue-500">Profile</Link>
     </View>
