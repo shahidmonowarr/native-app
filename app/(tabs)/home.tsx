@@ -1,8 +1,11 @@
 import React from 'react'
+import { Text, View } from 'react-native'
 
 function Home() {
   return (
-    <div>Home</div>
+    <View>
+      <Text className="text-2xl font-bold">Home</Text>
+   </View>
   )
 }
 

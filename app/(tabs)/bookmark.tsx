@@ -1,8 +1,11 @@
 import React from 'react'
+import { Text, View } from 'react-native'
 
 function Bookmark() {
   return (
-    <div>Bookmark</div>
+    <View>
+      <Text className="text-2xl font-bold">Bookmark</Text>
+   </View>
   )
 }
 

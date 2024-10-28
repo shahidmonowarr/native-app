@@ -1,8 +1,11 @@
 import React from 'react'
+import { Text, View } from 'react-native'
 
 function Create() {
   return (
-    <div>Create</div>
+    <View>
+      <Text className="text-2xl font-bold">Create</Text>
+   </View>
   )
 }
 
