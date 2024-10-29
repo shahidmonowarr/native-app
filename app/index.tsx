@@ -1,8 +1,9 @@
-import { Image, ScrollView, StatusBar, Text, View } from "react-native";
+import { Image, ScrollView, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { images } from "@/constants";
 import CustomButton from "@/components/CustomButton";
 import { Redirect, router } from "expo-router";
+import { StatusBar } from "expo-status-bar";
 
 export default function App() {
   return (
@@ -17,7 +18,7 @@ export default function App() {
           <Image source={images.cards} resizeMode="contain" className="max-w-[380px] w-full h-[300px]"/>
 
           <View className="relative mt-5">
-            <Text className="font-bold text-center text-3xl text-white">Discover EndlessPossibilities with{' '}<Text className=" text-secondary-200">Aora </Text> </Text>
+            <Text className="font-bold text-center text-3xl text-white">Discover Endless Possibilities with{' '}<Text className=" text-secondary-200">Aora </Text> </Text>
             
             <Image
             source={images.path}
@@ -34,7 +35,7 @@ export default function App() {
           />
         </View>
       </ScrollView>
-      <StatusBar backgroundColor={"#161622"} barStyle="light-content" />
+      <StatusBar backgroundColor={"#161622"} style="light" />
     </SafeAreaView>
   );
 }
